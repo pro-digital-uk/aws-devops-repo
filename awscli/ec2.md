@@ -1,8 +1,8 @@
 https://docs.aws.amazon.com/cli/v1/userguide/cli-services-ec2-instances.html
 
-** Launch your instance
+    ** Launch An instance
 
-aws ec2 run-instances --image-id ami-0f9629c639a701fa7 --count 1 --instance-type t2.micro --key-name collins-key --security-group-ids sg-0333685c0c1310bfa --subnet-id subnet-03842d23d59af4546
+    aws ec2 run-instances --image-id ami-0f9629c639a701fa7 --count 1 --instance-type t2.micro --key-name collins-key --security-group-ids sg-0333685c0c1310bfa --subnet-id subnet-03842d23d59af4546
 
 ** Add a block device to your instance:
 
